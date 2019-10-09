@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9305B6B6234DE517000C20F1 /* AnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9305B6B4234DE517000C20F1 /* AnimatedView.h */; };
+		9305B6B7234DE517000C20F1 /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305B6B5234DE517000C20F1 /* AnimatedView.m */; };
+		9305B6C0234DEFC6000C20F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305B6BF234DEFC6000C20F1 /* AppDelegate.m */; };
+		9305B6C3234DEFC6000C20F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305B6C2234DEFC6000C20F1 /* ViewController.m */; };
+		9305B6C5234DEFCA000C20F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9305B6C4234DEFCA000C20F1 /* Assets.xcassets */; };
+		9305B6C8234DEFCA000C20F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9305B6C6234DEFCA000C20F1 /* Main.storyboard */; };
+		9305B6CB234DEFCA000C20F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305B6CA234DEFCA000C20F1 /* main.m */; };
+		9305B6D0234DEFE5000C20F1 /* NSColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA7961AA2769900E1B30E /* NSColor+RandomColor.m */; };
+		9305B6D1234DEFE5000C20F1 /* NSImage+Mirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA7981AA2769900E1B30E /* NSImage+Mirror.m */; };
+		9305B6D2234DEFE5000C20F1 /* NSImage+PatternGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79A1AA2769900E1B30E /* NSImage+PatternGenerator.m */; };
+		9305B6D3234DEFE5000C20F1 /* NSImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79C1AA2769900E1B30E /* NSImage+Rotate.m */; };
+		9305B6D4234DEFE5000C20F1 /* NSView+PatternColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79E1AA2769900E1B30E /* NSView+PatternColor.m */; };
+		9305B6D5234DEFE5000C20F1 /* MagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA78E1AA2767600E1B30E /* MagicView.m */; };
+		9305B6D6234DEFE5000C20F1 /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305B6B5234DE517000C20F1 /* AnimatedView.m */; };
+		93DFA78D1AA2767600E1B30E /* MagicView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA78C1AA2767600E1B30E /* MagicView.h */; };
+		93DFA78F1AA2767600E1B30E /* MagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA78E1AA2767600E1B30E /* MagicView.m */; };
+		93DFA79F1AA2769900E1B30E /* NSColor+RandomColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA7951AA2769900E1B30E /* NSColor+RandomColor.h */; };
+		93DFA7A01AA2769900E1B30E /* NSColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA7961AA2769900E1B30E /* NSColor+RandomColor.m */; };
+		93DFA7A11AA2769900E1B30E /* NSImage+Mirror.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA7971AA2769900E1B30E /* NSImage+Mirror.h */; };
+		93DFA7A21AA2769900E1B30E /* NSImage+Mirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA7981AA2769900E1B30E /* NSImage+Mirror.m */; };
+		93DFA7A31AA2769900E1B30E /* NSImage+PatternGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA7991AA2769900E1B30E /* NSImage+PatternGenerator.h */; };
+		93DFA7A41AA2769900E1B30E /* NSImage+PatternGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79A1AA2769900E1B30E /* NSImage+PatternGenerator.m */; };
+		93DFA7A51AA2769900E1B30E /* NSImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA79B1AA2769900E1B30E /* NSImage+Rotate.h */; };
+		93DFA7A61AA2769900E1B30E /* NSImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79C1AA2769900E1B30E /* NSImage+Rotate.m */; };
+		93DFA7A71AA2769900E1B30E /* NSView+PatternColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DFA79D1AA2769900E1B30E /* NSView+PatternColor.h */; };
+		93DFA7A81AA2769900E1B30E /* NSView+PatternColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DFA79E1AA2769900E1B30E /* NSView+PatternColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9305B6B4234DE517000C20F1 /* AnimatedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatedView.h; sourceTree = "<group>"; };
+		9305B6B5234DE517000C20F1 /* AnimatedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedView.m; sourceTree = "<group>"; };
+		9305B6BC234DEFC6000C20F1 /* MagicTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9305B6BE234DEFC6000C20F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9305B6BF234DEFC6000C20F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9305B6C1234DEFC6000C20F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9305B6C2234DEFC6000C20F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9305B6C4234DEFCA000C20F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9305B6C7234DEFCA000C20F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9305B6C9234DEFCA000C20F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9305B6CA234DEFCA000C20F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9305B6CC234DEFCA000C20F1 /* MagicTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicTester.entitlements; sourceTree = "<group>"; };
+		93DFA7871AA2767600E1B30E /* Magic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DFA78B1AA2767600E1B30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DFA78C1AA2767600E1B30E /* MagicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicView.h; sourceTree = "<group>"; };
+		93DFA78E1AA2767600E1B30E /* MagicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicView.m; sourceTree = "<group>"; };
+		93DFA7951AA2769900E1B30E /* NSColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RandomColor.h"; sourceTree = "<group>"; };
+		93DFA7961AA2769900E1B30E /* NSColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RandomColor.m"; sourceTree = "<group>"; };
+		93DFA7971AA2769900E1B30E /* NSImage+Mirror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Mirror.h"; sourceTree = "<group>"; };
+		93DFA7981AA2769900E1B30E /* NSImage+Mirror.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Mirror.m"; sourceTree = "<group>"; };
+		93DFA7991AA2769900E1B30E /* NSImage+PatternGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+PatternGenerator.h"; sourceTree = "<group>"; };
+		93DFA79A1AA2769900E1B30E /* NSImage+PatternGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+PatternGenerator.m"; sourceTree = "<group>"; };
+		93DFA79B1AA2769900E1B30E /* NSImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Rotate.h"; sourceTree = "<group>"; };
+		93DFA79C1AA2769900E1B30E /* NSImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Rotate.m"; sourceTree = "<group>"; };
+		93DFA79D1AA2769900E1B30E /* NSView+PatternColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+PatternColor.h"; sourceTree = "<group>"; };
+		93DFA79E1AA2769900E1B30E /* NSView+PatternColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+PatternColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9305B6B9234DEFC6000C20F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DFA7831AA2767600E1B30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9305B6BD234DEFC6000C20F1 /* MagicTester */ = {
+			isa = PBXGroup;
+			children = (
+				9305B6BE234DEFC6000C20F1 /* AppDelegate.h */,
+				9305B6BF234DEFC6000C20F1 /* AppDelegate.m */,
+				9305B6C1234DEFC6000C20F1 /* ViewController.h */,
+				9305B6C2234DEFC6000C20F1 /* ViewController.m */,
+				9305B6C4234DEFCA000C20F1 /* Assets.xcassets */,
+				9305B6C6234DEFCA000C20F1 /* Main.storyboard */,
+				9305B6C9234DEFCA000C20F1 /* Info.plist */,
+				9305B6CA234DEFCA000C20F1 /* main.m */,
+				9305B6CC234DEFCA000C20F1 /* MagicTester.entitlements */,
+			);
+			path = MagicTester;
+			sourceTree = "<group>";
+		};
+		93DFA77D1AA2767600E1B30E = {
+			isa = PBXGroup;
+			children = (
+				93DFA7891AA2767600E1B30E /* Magic */,
+				9305B6BD234DEFC6000C20F1 /* MagicTester */,
+				93DFA7881AA2767600E1B30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93DFA7881AA2767600E1B30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DFA7871AA2767600E1B30E /* Magic.saver */,
+				9305B6BC234DEFC6000C20F1 /* MagicTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DFA7891AA2767600E1B30E /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+				93DFA7A91AA27D1700E1B30E /* Categories */,
+				93DFA78C1AA2767600E1B30E /* MagicView.h */,
+				93DFA78E1AA2767600E1B30E /* MagicView.m */,
+				9305B6B4234DE517000C20F1 /* AnimatedView.h */,
+				9305B6B5234DE517000C20F1 /* AnimatedView.m */,
+				93DFA78A1AA2767600E1B30E /* Supporting Files */,
+			);
+			path = Magic;
+			sourceTree = "<group>";
+		};
+		93DFA78A1AA2767600E1B30E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93DFA78B1AA2767600E1B30E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93DFA7A91AA27D1700E1B30E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				93DFA7951AA2769900E1B30E /* NSColor+RandomColor.h */,
+				93DFA7961AA2769900E1B30E /* NSColor+RandomColor.m */,
+				93DFA7971AA2769900E1B30E /* NSImage+Mirror.h */,
+				93DFA7981AA2769900E1B30E /* NSImage+Mirror.m */,
+				93DFA7991AA2769900E1B30E /* NSImage+PatternGenerator.h */,
+				93DFA79A1AA2769900E1B30E /* NSImage+PatternGenerator.m */,
+				93DFA79B1AA2769900E1B30E /* NSImage+Rotate.h */,
+				93DFA79C1AA2769900E1B30E /* NSImage+Rotate.m */,
+				93DFA79D1AA2769900E1B30E /* NSView+PatternColor.h */,
+				93DFA79E1AA2769900E1B30E /* NSView+PatternColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93DFA7841AA2767600E1B30E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9305B6B6234DE517000C20F1 /* AnimatedView.h in Headers */,
+				93DFA7A31AA2769900E1B30E /* NSImage+PatternGenerator.h in Headers */,
+				93DFA7A71AA2769900E1B30E /* NSView+PatternColor.h in Headers */,
+				93DFA79F1AA2769900E1B30E /* NSColor+RandomColor.h in Headers */,
+				93DFA78D1AA2767600E1B30E /* MagicView.h in Headers */,
+				93DFA7A51AA2769900E1B30E /* NSImage+Rotate.h in Headers */,
+				93DFA7A11AA2769900E1B30E /* NSImage+Mirror.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9305B6BB234DEFC6000C20F1 /* MagicTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9305B6CD234DEFCA000C20F1 /* Build configuration list for PBXNativeTarget "MagicTester" */;
+			buildPhases = (
+				9305B6B8234DEFC6000C20F1 /* Sources */,
+				9305B6B9234DEFC6000C20F1 /* Frameworks */,
+				9305B6BA234DEFC6000C20F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTester;
+			productName = MagicTester;
+			productReference = 9305B6BC234DEFC6000C20F1 /* MagicTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DFA7861AA2767600E1B30E /* Magic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DFA7921AA2767600E1B30E /* Build configuration list for PBXNativeTarget "Magic" */;
+			buildPhases = (
+				93DFA7821AA2767600E1B30E /* Sources */,
+				93DFA7831AA2767600E1B30E /* Frameworks */,
+				93DFA7841AA2767600E1B30E /* Headers */,
+				93DFA7851AA2767600E1B30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magic;
+			productName = Magic;
+			productReference = 93DFA7871AA2767600E1B30E /* Magic.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DFA77E1AA2767600E1B30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "👽 Technology";
+				TargetAttributes = {
+					9305B6BB234DEFC6000C20F1 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 9T562547W8;
+						ProvisioningStyle = Automatic;
+					};
+					93DFA7861AA2767600E1B30E = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9T562547W8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93DFA7811AA2767600E1B30E /* Build configuration list for PBXProject "Magic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DFA77D1AA2767600E1B30E;
+			productRefGroup = 93DFA7881AA2767600E1B30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DFA7861AA2767600E1B30E /* Magic */,
+				9305B6BB234DEFC6000C20F1 /* MagicTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9305B6BA234DEFC6000C20F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9305B6C5234DEFCA000C20F1 /* Assets.xcassets in Resources */,
+				9305B6C8234DEFCA000C20F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DFA7851AA2767600E1B30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9305B6B8234DEFC6000C20F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9305B6C3234DEFC6000C20F1 /* ViewController.m in Sources */,
+				9305B6D5234DEFE5000C20F1 /* MagicView.m in Sources */,
+				9305B6CB234DEFCA000C20F1 /* main.m in Sources */,
+				9305B6D3234DEFE5000C20F1 /* NSImage+Rotate.m in Sources */,
+				9305B6D1234DEFE5000C20F1 /* NSImage+Mirror.m in Sources */,
+				9305B6D6234DEFE5000C20F1 /* AnimatedView.m in Sources */,
+				9305B6D4234DEFE5000C20F1 /* NSView+PatternColor.m in Sources */,
+				9305B6D2234DEFE5000C20F1 /* NSImage+PatternGenerator.m in Sources */,
+				9305B6C0234DEFC6000C20F1 /* AppDelegate.m in Sources */,
+				9305B6D0234DEFE5000C20F1 /* NSColor+RandomColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DFA7821AA2767600E1B30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DFA7A21AA2769900E1B30E /* NSImage+Mirror.m in Sources */,
+				93DFA7A41AA2769900E1B30E /* NSImage+PatternGenerator.m in Sources */,
+				93DFA78F1AA2767600E1B30E /* MagicView.m in Sources */,
+				93DFA7A61AA2769900E1B30E /* NSImage+Rotate.m in Sources */,
+				9305B6B7234DE517000C20F1 /* AnimatedView.m in Sources */,
+				93DFA7A81AA2769900E1B30E /* NSView+PatternColor.m in Sources */,
+				93DFA7A01AA2769900E1B30E /* NSColor+RandomColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9305B6C6234DEFCA000C20F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9305B6C7234DEFCA000C20F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9305B6CE234DEFCA000C20F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MagicTester/MagicTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9T562547W8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MagicTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.at.MagicTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9305B6CF234DEFCA000C20F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MagicTester/MagicTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9T562547W8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MagicTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.at.MagicTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93DFA7901AA2767600E1B30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93DFA7911AA2767600E1B30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93DFA7931AA2767600E1B30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T562547W8;
+				INFOPLIST_FILE = Magic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.at.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		93DFA7941AA2767600E1B30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9T562547W8;
+				INFOPLIST_FILE = Magic/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.at.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9305B6CD234DEFCA000C20F1 /* Build configuration list for PBXNativeTarget "MagicTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9305B6CE234DEFCA000C20F1 /* Debug */,
+				9305B6CF234DEFCA000C20F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DFA7811AA2767600E1B30E /* Build configuration list for PBXProject "Magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DFA7901AA2767600E1B30E /* Debug */,
+				93DFA7911AA2767600E1B30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DFA7921AA2767600E1B30E /* Build configuration list for PBXNativeTarget "Magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DFA7931AA2767600E1B30E /* Debug */,
+				93DFA7941AA2767600E1B30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DFA77E1AA2767600E1B30E /* Project object */;
+}
