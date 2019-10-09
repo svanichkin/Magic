@@ -48,6 +48,7 @@
 		9305B6C9234DEFCA000C20F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9305B6CA234DEFCA000C20F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9305B6CC234DEFCA000C20F1 /* MagicTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicTester.entitlements; sourceTree = "<group>"; };
+		9305B6E0234E477C000C20F1 /* SignedMagicSaver.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignedMagicSaver.pkg; sourceTree = "<group>"; };
 		93DFA7871AA2767600E1B30E /* Magic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DFA78B1AA2767600E1B30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DFA78C1AA2767600E1B30E /* MagicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicView.h; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				93DFA7891AA2767600E1B30E /* Magic */,
 				9305B6BD234DEFC6000C20F1 /* MagicTester */,
 				93DFA7881AA2767600E1B30E /* Products */,
+				9305B6E0234E477C000C20F1 /* SignedMagicSaver.pkg */,
 			);
 			sourceTree = "<group>";
 		};
