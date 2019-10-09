@@ -63,35 +63,6 @@ NSSize displaysize;
     return self;
 }
 
--(void)animateOneFrame
-{
-    [super animateOneFrame];
-    
-//    if (self.isPreview)
-//    {
-//        self.needsDisplay = YES;
-//
-//        return;
-//    }
-    
-//    if (self.isAnimationProgress == YES)
-//        return;
-//
-//    [self animate];
-    
-    return;
-}
-
-//-(BOOL)hasConfigureSheet
-//{
-//    return NO;
-//}
-//
-//-(NSWindow *)configureSheet
-//{
-//    return nil;
-//}
-
 -(void)startAnimation
 {
     [super startAnimation];
@@ -114,11 +85,6 @@ NSSize displaysize;
     else
         [self startNewAnimationView];
 }
-
-//-(void)stopAnimation
-//{
-//    [super stopAnimation];
-//}
 
 -(void)startNewAnimationView
 {
