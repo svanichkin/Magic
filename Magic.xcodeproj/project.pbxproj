@@ -52,7 +52,7 @@
 		9305B6E2234E4E9F000C20F1 /* Shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot1.png; sourceTree = "<group>"; };
 		9305B6E5234E505D000C20F1 /* Shot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot3.png; sourceTree = "<group>"; };
 		9305B6E6234E505D000C20F1 /* Shot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot4.png; sourceTree = "<group>"; };
-		93877077234FBAF600D76670 /* SignedMagicSaver.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignedMagicSaver.pkg; sourceTree = "<group>"; };
+		93877079234FC30B00D76670 /* SignedMagicSaver.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignedMagicSaver.pkg; sourceTree = "<group>"; };
 		93DFA7871AA2767600E1B30E /* Magic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DFA78B1AA2767600E1B30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DFA78C1AA2767600E1B30E /* MagicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicView.h; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				9305B6E1234E4E9F000C20F1 /* Shot2.png */,
 				9305B6E5234E505D000C20F1 /* Shot3.png */,
 				9305B6E6234E505D000C20F1 /* Shot4.png */,
-				93877077234FBAF600D76670 /* SignedMagicSaver.pkg */,
+				93877079234FC30B00D76670 /* SignedMagicSaver.pkg */,
 			);
 			sourceTree = "<group>";
 		};
