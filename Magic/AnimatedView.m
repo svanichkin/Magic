@@ -34,20 +34,23 @@
         self.scaledContainerView =
         [NSView.alloc initWithFrame:frame];
         
-        self.scaledContainerView.wantsLayer          = YES;
-        self.scaledContainerView.layer.masksToBounds = NO;
-        self.scaledContainerView.alphaValue          = 0;
+        self.scaledContainerView.wantsLayer            = YES;
+        self.scaledContainerView.layer.masksToBounds   = NO;
+        self.scaledContainerView.alphaValue            = 0;
         
         [self addSubview:self.scaledContainerView];
+        
+        self.scaledContainerView.layer.affineTransform =
+        CGAffineTransformMakeScale(0.5, 0.5);
         
         CGFloat max =
         self.frame.size.width > self.frame.size.height ? self.frame.size.width : self.frame.size.height;
         
         frame =
-        CGRectMake(-max * 2,
-                   -max * 2,
-                   max * 4,
-                   max * 4);
+        CGRectMake(-max * 20,
+                   -max * 20,
+                   max * 40,
+                   max * 40);
         
         NSView *backgroundView =
         [NSView.alloc initWithFrame:frame];

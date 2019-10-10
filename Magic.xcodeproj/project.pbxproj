@@ -48,11 +48,11 @@
 		9305B6C9234DEFCA000C20F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9305B6CA234DEFCA000C20F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9305B6CC234DEFCA000C20F1 /* MagicTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicTester.entitlements; sourceTree = "<group>"; };
-		9305B6E0234E477C000C20F1 /* SignedMagicSaver.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignedMagicSaver.pkg; sourceTree = "<group>"; };
 		9305B6E1234E4E9F000C20F1 /* Shot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot2.png; sourceTree = "<group>"; };
 		9305B6E2234E4E9F000C20F1 /* Shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot1.png; sourceTree = "<group>"; };
 		9305B6E5234E505D000C20F1 /* Shot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot3.png; sourceTree = "<group>"; };
 		9305B6E6234E505D000C20F1 /* Shot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot4.png; sourceTree = "<group>"; };
+		93877077234FBAF600D76670 /* SignedMagicSaver.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = SignedMagicSaver.pkg; sourceTree = "<group>"; };
 		93DFA7871AA2767600E1B30E /* Magic.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DFA78B1AA2767600E1B30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93DFA78C1AA2767600E1B30E /* MagicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicView.h; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				9305B6E1234E4E9F000C20F1 /* Shot2.png */,
 				9305B6E5234E505D000C20F1 /* Shot3.png */,
 				9305B6E6234E505D000C20F1 /* Shot4.png */,
-				9305B6E0234E477C000C20F1 /* SignedMagicSaver.pkg */,
+				93877077234FBAF600D76670 /* SignedMagicSaver.pkg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,7 +225,7 @@
 		93DFA77E1AA2767600E1B30E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "👽 Technology";
 				TargetAttributes = {
 					9305B6BB234DEFC6000C20F1 = {
@@ -335,6 +335,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = MagicTester/MagicTester.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -362,6 +363,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = MagicTester/MagicTester.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;

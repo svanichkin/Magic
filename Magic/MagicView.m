@@ -12,7 +12,7 @@
 #import "AnimatedView.h"
 #import <QuartzCore/QuartzCore.h>
 
-#define TiME 60
+#define TiME 50
 
 @interface MagicView ()
 
@@ -111,11 +111,24 @@ NSSize displaysize;
         context.allowsImplicitAnimation = YES;
         context.timingFunction          =
         [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-
-        CGFloat scale = 1. + (arc4random()%100) / 90.;
         
-        self.animatedContainerView.layer.affineTransform =
-        CGAffineTransformConcat(CGAffineTransformMakeScale(scale, scale),CGAffineTransformMakeRotation(M_PI * (arc4random()%100) / 180.0));
+        CATransform3D transform = CATransform3DIdentity;
+        transform.m34 = -1.0/400.0;
+        transform =
+        CATransform3DRotate(transform,
+                            M_PI * (50) / 180.0,
+                            arc4random()%10 / 10. - arc4random()%10 / 10.,
+                            arc4random()%10 / 10. - arc4random()%10 / 10.,
+                            arc4random()%60 / 60. - arc4random()%60 / 60.);
+        
+        transform =
+        CATransform3DTranslate(transform,
+                               (CGFloat)(arc4random()%1000),
+                               (CGFloat)(arc4random()%1000),
+                               10.-(arc4random()%500));
+        
+        self.animatedContainerView.layer.transform = transform;
+        
     }
      completionHandler:^
     {
