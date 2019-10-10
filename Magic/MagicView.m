@@ -107,7 +107,7 @@ NSSize displaysize;
     [NSAnimationContext
      runAnimationGroup:^(NSAnimationContext *context)
      {
-        context.duration                = TiME/2. + (arc4random()%TiME/2. - arc4random()%TiME/2.);
+        context.duration                = TiME + (arc4random()%TiME/2. - arc4random()%TiME/2.);
         context.allowsImplicitAnimation = YES;
         context.timingFunction          =
         [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
