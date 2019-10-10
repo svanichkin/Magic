@@ -116,7 +116,7 @@ NSSize displaysize;
         transform.m34 = -1.0/500.0;
         transform =
         CATransform3DRotate(transform,
-                            M_PI * (30) / 180.0,
+                            M_PI * (20) / 180.0,
                             arc4random()%10 / 10. - arc4random()%10 / 10.,
                             arc4random()%10 / 10. - arc4random()%10 / 10.,
                             arc4random()%1000 / 100. - arc4random()%1000 / 100.);
